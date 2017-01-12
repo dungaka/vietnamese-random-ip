@@ -1,0 +1,32 @@
+﻿{
+  "name": "vietnamese-random-ip",
+   "description": "A simple tool for randomly generating Vietnamese IP addresses",
+  "version": "0.0.5",
+  "main": "app.js",
+  "author": {
+    "name": "dungaka",
+    "email": "dungaka@gmail.com"
+  },
+  "scripts": {
+    "test": "jasmine-node  test/appSpec.js"
+  },
+  "repository": {
+        "type": "git",
+        "url": "git@github.com:dungaka/vietnamese-random-ip.git"
+   },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+	"request":"latest",
+	"jasmine-node":"latest"
+  },
+  "dependencies": {
+    "ip": "*"
+  },
+  "keywords": [
+    "vietnamese",
+    "ip",
+	"random",
+    "vietnam"
+  ]
+}
